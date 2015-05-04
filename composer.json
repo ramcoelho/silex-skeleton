@@ -1,0 +1,14 @@
+{
+    "name": "ramcoelho/silex-skeleton",
+    "description": "Silex Skeleton",
+    "require": {
+        "silex/silex": "~1.2",
+        "twig/twig": "~1.18",
+        "symfony/twig-bridge": "~2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Skel\\": "src/"
+        }
+    }
+}
