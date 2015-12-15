@@ -1,9 +1,9 @@
 <?php
 
-use Skel\Controller\IndexController;
-use Skel\Service\ControllerProvider,
-    Skel\Service\RouterProvider,
-    Skel\Service\DBProvider;
+use Controller\IndexController;
+use Service\ControllerProvider,
+    Service\RouterProvider,
+    Service\DBProvider;
 use Silex\Application;
 use Silex\Provider\ServiceControllerServiceProvider;
 

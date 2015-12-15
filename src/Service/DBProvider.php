@@ -1,5 +1,5 @@
 <?php
-namespace Skel\Service;
+namespace Service;
 
 use \PDO;
 use Silex\Application;

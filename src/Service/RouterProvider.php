@@ -1,5 +1,5 @@
 <?php
-namespace Skel\Service;
+namespace Service;
 
 use Silex\Application;
 use Silex\ServiceProviderInterface;

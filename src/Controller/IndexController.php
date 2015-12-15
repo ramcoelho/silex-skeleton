@@ -1,6 +1,6 @@
 <?php
 
-namespace Skel\Controller;
+namespace Controller;
 
 use Symfony\Component\HttpFoundation\Response;
 

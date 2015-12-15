@@ -1,10 +1,10 @@
 <?php
 
-namespace Skel\Service;
+namespace Service;
 
 use Silex\Application;
 use Silex\ServiceProviderInterface;
-use Skel\Controller\IndexController;
+use Controller\IndexController;
 
 class ControllerProvider implements ServiceProviderInterface
 {
