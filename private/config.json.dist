@@ -1,0 +1,12 @@
+{
+    "_comment": "Change these settings and save as config.json",
+    "debug": true,
+    "db": {
+        "_comment": "You can access the connection below using $app['db.pgExample']",
+        "pgExample": {
+            "host": "pgsql:host=localhost;dbname=your_db_name",
+            "user": "your_pgsql_user",
+            "password": "you_pgsql_passwd"
+        }
+    }
+}
