@@ -10,7 +10,6 @@ class ConfigProvider implements ServiceProviderInterface
 {
     public function register(Application $app)
     {
-        $app['debug'] = true;
         $app['config'] = $app->share(function() use ($app) {
             if (! file_exists(CONFIG_FILE))
                 throw new \Exception(sprintf(
@@ -19,7 +18,7 @@ class ConfigProvider implements ServiceProviderInterface
                 ), 500);
 
             $json = file_get_contents(CONFIG_FILE);
-            $config = json_decode($json);          
+            $config = json_decode($json);
 
             if (\JSON_ERROR_NONE != json_last_error())
                 throw new \Exception(sprintf(
