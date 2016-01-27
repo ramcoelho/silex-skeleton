@@ -2,13 +2,16 @@
     "name": "ramcoelho/silex-skeleton",
     "description": "Silex Skeleton",
     "require": {
-        "silex/silex": "~1.2",
-        "twig/twig": "~1.18",
-        "symfony/twig-bridge": "~2.6"
+        "silex/silex": "~1.2"
     },
     "autoload": {
         "psr-4": {
             "": "src/"
         }
+    },
+    "suggest": {
+        "twig/twig": "Twig, the flexible, fast, and secure template language for PHP.",
+        "symfony/twig-bridge": "Symfony Twig Bridge.",
+        "robmorgan/phinx": "Phinx makes it ridiculously easy to manage the database migrations for your PHP app."
     }
 }
