@@ -2,7 +2,7 @@
     "name": "ramcoelho/silex-skeleton",
     "description": "Silex Skeleton",
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
     "require": {
         "silex/silex": "~1.2"
     },
